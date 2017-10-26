@@ -1,0 +1,183 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    line-height: 150%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../images/doodles.png);
+    color: #262323;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+header {
+    background: white;
+    position: relative;
+    top: -20px;
+    margin-bottom: -5%;
+}
+
+h1 {
+    background: #4DD4CA;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    width: 140px;
+    padding: 20px 0px 20px 0px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #4DD4CA;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    top: -55px;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.contactlinks li {
+    display: inline-block;
+
+}
+
+.contactimage {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -30px;
+    margin: 3px;
+}
+
+.divider {
+    background-color: gray;
+    height: 2px;
+    margin: 30px 0 30px;
+}
+
+.divider2 {
+    background-color: gray;
+    height: 2px;
+    width: 85%;
+    position: relative;
+    left: 20px;
+}
+
+.container {
+    width: 71.2%;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#main-bio {
+    width: 62.3%;
+    position: relative;
+    margin-left: -80px;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px 0 30px;
+    clear: both;
+}
+
+#contact-info {
+    width: 28%;
+    opacity: .8;
+    background: white;
+    border: 1px solid black;
+    margin-left: 40px;
+    text-align: center;
+
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.footer {
+    border-top: 4px solid #4DD4CA;
+    padding-top: 20px;
+    height: 40px;
+    background: white;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 5px;
+}
+
+.form {
+    list-style-type: none;
+    position: relative;
+    left: -40px;
+}
+
+input {
+    width: 100%;
+}
+
+.comments {
+    height: 200px;
+    width: 100%;
+}
+
+.images {
+    float: left;
+    margin-left: 5%;
+}
+
+.images2 {
+    float: left;
+    margin-left: 20%;
+}
+
+.portfolio {
+    background: #4DD4CA;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    width: 140px;
+    height: 50px;
+    padding: 23px 10px 0 50px;
+    top: 190px;
+}
